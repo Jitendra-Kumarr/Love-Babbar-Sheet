@@ -31,3 +31,4 @@ public class RotateBy1 {
         sc.close();
     }
 }
+// Rotate Array by One
