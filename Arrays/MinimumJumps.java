@@ -31,5 +31,6 @@ public class MinimumJumps {
 
 
         System.out.println(minJumps(arr));
+        sc.close();
     }
 }

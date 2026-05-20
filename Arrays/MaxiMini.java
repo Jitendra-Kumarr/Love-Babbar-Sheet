@@ -47,5 +47,6 @@ public class MaxiMini {
             System.out.print(Answer.get(i) + " ");
         }
 
+        sc.close();
     }
 }

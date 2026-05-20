@@ -29,5 +29,7 @@ public class KadaneAlgo {
         }
 
         System.out.println(maxSubarraySum(arr));
+
+        sc.close();
     }
 }

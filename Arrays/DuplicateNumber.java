@@ -30,6 +30,8 @@ public class DuplicateNumber {
         }
 
         System.out.println(findDuplicate(arr));
+
+        sc.close();
     }
     
 }

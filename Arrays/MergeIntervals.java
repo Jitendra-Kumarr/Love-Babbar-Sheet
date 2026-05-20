@@ -43,6 +43,6 @@ public class MergeIntervals {
         for(int[] interval : merged){
             System.out.print(Arrays.toString(interval));
         }
-
+        sc.close();
     }
 }

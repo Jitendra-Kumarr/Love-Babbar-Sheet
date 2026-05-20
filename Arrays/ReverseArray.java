@@ -36,6 +36,6 @@ public class ReverseArray {
             System.out.print(result[i] + " ");
         }
 
-
+        sc.close();
     }
 }

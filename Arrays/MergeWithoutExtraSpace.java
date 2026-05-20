@@ -41,5 +41,7 @@ public class MergeWithoutExtraSpace {
         }
 
         mergeArrays(a, b);
+
+        sc.close();
     }
 }

@@ -28,5 +28,7 @@ public class MinimizeTheHeight {
         }
 
         System.out.println(getMinDiff(arr, 2));
+
+        sc.close();
     }
 }

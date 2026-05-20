@@ -29,5 +29,6 @@ public class KthElement {
 
         System.out.println(KthSmallest(arr, 4));
 
+        sc.close();
     }
 }

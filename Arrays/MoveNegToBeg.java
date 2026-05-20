@@ -32,5 +32,6 @@ public class MoveNegToBeg {
             System.out.print(result[i] + " ");
         }
 
+        sc.close();
     }
 }

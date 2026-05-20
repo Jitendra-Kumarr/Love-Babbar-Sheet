@@ -47,5 +47,6 @@ public class Sort012 {
             System.out.print(result[i] + " ");
         }
 
+        sc.close();
     }
 }
