@@ -50,3 +50,4 @@ public class Sort012 {
         sc.close();
     }
 }
+// Sort 0s, 1s and 2s
