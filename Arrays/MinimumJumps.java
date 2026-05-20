@@ -34,3 +34,4 @@ public class MinimumJumps {
         sc.close();
     }
 }
+// Minimum Jumps
