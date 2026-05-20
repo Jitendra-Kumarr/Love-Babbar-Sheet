@@ -50,3 +50,4 @@ public class MaxiMini {
         sc.close();
     }
 }
+// Maximum And Minimum In An Array
