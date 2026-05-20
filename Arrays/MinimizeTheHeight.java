@@ -32,3 +32,4 @@ public class MinimizeTheHeight {
         sc.close();
     }
 }
+// Minimize the Heights II
