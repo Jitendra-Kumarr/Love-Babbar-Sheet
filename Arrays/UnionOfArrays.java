@@ -39,3 +39,4 @@ public class UnionOfArrays {
         sc.close();
     }
 }
+// Union of Arrays with Duplicates
