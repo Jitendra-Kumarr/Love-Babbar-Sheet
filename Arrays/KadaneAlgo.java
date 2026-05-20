@@ -33,3 +33,4 @@ public class KadaneAlgo {
         sc.close();
     }
 }
+// Kadane's Algorithm
