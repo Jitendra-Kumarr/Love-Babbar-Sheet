@@ -35,3 +35,4 @@ public class MoveNegToBeg {
         sc.close();
     }
 }
+// Move all negatives to beginning
