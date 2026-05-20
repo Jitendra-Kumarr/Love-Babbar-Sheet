@@ -32,3 +32,4 @@ public class KthElement {
         sc.close();
     }
 }
+// Kth Smallest Element
