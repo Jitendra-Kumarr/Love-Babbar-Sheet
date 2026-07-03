@@ -11,7 +11,7 @@ class Node {
 }
 
 public class TreeImplementation {
-    
+
     void preorder(Node root){
         if(root == null){
             return; 
@@ -21,6 +21,22 @@ public class TreeImplementation {
         preorder(root.right);
     }
 
+    void inorder(Node root){
+        if(root == null) return ; 
+
+        inorder(root.left);
+        System.out.print(root.data + " ");
+        inorder(root.right);
+    }
+
+    void postorder(Node root){
+        if(root == null) return; 
+
+        postorder(root.left);
+        postorder(root.right);
+        System.out.print(root.data + " ");
+    }
+    
     public static void main(String[] args) {
         Node root = new Node(1); 
         root.left = new Node(2); 
@@ -28,6 +44,10 @@ public class TreeImplementation {
 
         TreeImplementation obj = new TreeImplementation(); 
         obj.preorder(root);
+        System.out.println();
+        obj.inorder(root);
+        System.out.println();
+        obj.postorder(root);
 
     }
     
