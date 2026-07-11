@@ -16,7 +16,7 @@ public class kthLargestElement {
     public static void InorderTraversal(Node node, int k){
         if(node == null) return ; 
 
-        InorderTraversal(node.left, k);
+        InorderTraversal(node.right, k);
 
         count++; 
         if(count == k){
@@ -24,7 +24,7 @@ public class kthLargestElement {
             return ;
         }
 
-        InorderTraversal(node.right, k); 
+        InorderTraversal(node.left, k); 
 
     }
 
@@ -56,7 +56,7 @@ public class kthLargestElement {
         int k = 3;
         int ans = obj.KthLargestElement(root, k);
 
-        System.out.println(k + "rd/th smallest = " + ans); // expect 40
+        System.out.println(k + "rd/th largest = " + ans); 
     }
 
 }
